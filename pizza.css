@@ -1,0 +1,119 @@
+/**{
+  border-style: 2px solid black;*/
+
+}
+.wrapper{
+  border: 2px solid red;
+    padding: 20px;
+
+
+}
+header{
+  border: 2px solid black;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: flex-start;
+  align-items: center;
+  flex:1 1 0;
+
+
+}
+.hbox{
+  border: 2px solid black;
+  width: 300px;
+height: 250px;
+flex-grow: 0;
+flex-shrink: 0;
+flex-basis: 0;
+}
+
+.one{
+  width: 300px;
+height: 250px;
+flex-grow: <property unused>
+flex-shrink: <property unused>
+flex-basis: <property unused>
+}
+.one ul{
+  list-style: none;
+
+}
+}
+.two{
+  width: 300px;
+height: 250px;
+flex-grow: <property unused>
+flex-shrink: <property unused>
+flex-basis: <property unused>
+
+}
+
+.two ul{
+  list-style: none;
+  display: flex;
+}
+.tew li{
+  flex:1 1 0;
+}
+
+
+
+/*////////////////////////////head///////////////////////////////////*/
+
+.container{
+  display:flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-content: center;
+  align-items: center;
+  border: 2px solid black;
+
+
+}
+.container img{
+  height: 100px;
+  width: 100px;
+
+}
+.box{
+  width: 300px;
+    height: 250px;
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 0;
+    border: 2px solid black;
+}
+.cone{
+  width: 300px;
+   height: 250px;
+   flex-grow: <property unused>
+   flex-shrink: <property unused>
+   flex-basis: <property unused>
+
+}
+.ctwo{
+  width: 300px;
+  height: 250px;
+  flex-grow: <property unused>
+  flex-shrink: <property unused>
+  flex-basis: <property unused>
+
+
+}
+.cthree{
+  width: 300px;
+  height: 250px;
+  flex-grow: <property unused>
+  flex-shrink: <property unused>
+  flex-basis: <property unused>
+}
+.ctwo ul{
+  font-size: 10px;
+}
+
+footer {
+  border: 2px solid black;
+}
